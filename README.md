@@ -20,7 +20,7 @@ Let's go through the infantry lines first.
 
 | SoundBank Name        | When Does It Play?  |
 | -------------         |:-------------:|
-| DirectionalBank       | Image         |  
-| DeathBank             | Animator      |  
-| KillBank              | Image         |  
-| FriendlyFireBank      | Image         |  
+| DirectionalBank       | Calls out the direction when a bot is firing. Happens within a set interval.       |  
+| DeathBank             | Plays when a bot dies. Will interrupt other lines.    |  
+| KillBank              | Plays when a bot gets a kill. Only one bot can callout at a time to prevent spamming.       |  
+| FriendlyFireBank      | Plays when you damage a friendly bot.        |  
