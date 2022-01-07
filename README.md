@@ -25,6 +25,16 @@ Let's go through the infantry lines first.
 | KillBank              | Plays when a bot gets a kill. Only one bot can callout at a time to prevent spamming.       |  
 | FriendlyFireBank      | Plays when you damage a friendly bot.        |
 
+**Important Note:** For directional callouts, you need 8 clips no more, no less. You need to place them in this order:
+1) North
+2) North Eeast
+3) East
+4) South East
+5) South
+6) South West
+7) West
+8) North West
+
 Now let's go through the announcer lines.
 
 | SoundBank Name        | When Does It Play?  |
@@ -48,4 +58,10 @@ All you need to do as a voice pack creator is to put in your clips into their re
 Now what if you only want your pack to have infantry lines or just announcer lines? In the DataContainer component of your prefab, you'll find two boolean values. Setting hasInfantryLines to false will tell the main mutator to not add your pack to the list of infantry lines. Setting hasAnnouncerLines to false will do the same for the announcer clips.
 
 For debug purposes, there are also strings to set your voice pack name and its announcer pack name.
+
+# Publishing
+
+All done with setting up? Before you publish your mod, make sure to test it first! Select your content mod, and press Ctrl + E. This will export your mod. Now run the game with the Team Voices 3.0 mutator active and see if your lines are playing properly. All good? Now go back to Unity and go to Ravenfield Tools -> Publish To Steam Workshop and follow the instructions there.
+
+Congratulations, you've made your first voice pack!
 
