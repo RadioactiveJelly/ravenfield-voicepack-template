@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 6677862930121121990}
   - component: {fileID: 6540552854286446088}
   m_Layer: 0
-  m_Name: VoicePackMutator
+  m_Name: VoicePackMutator[Template]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

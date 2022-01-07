@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7098703565502518342}
   - component: {fileID: 7098703565502518343}
   m_Layer: 0
-  m_Name: VoicePack
+  m_Name: VoicePack[Template]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
