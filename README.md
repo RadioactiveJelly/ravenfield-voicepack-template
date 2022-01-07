@@ -1,4 +1,4 @@
-# ravenfield: Voice Packs
+# Ravenfield: Voice Packs
 -----
 
 Hello, if you're here then it means you're interested in creating a voice pack for the Team Voices 3.0 mutator. Here you'll find a quick description of how to create a voice pack, and a quick run down of when clips will actually play.
