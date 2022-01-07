@@ -39,4 +39,13 @@ Now let's go through the announcer lines.
 | LostControlBank       | Plays when the player's team has less flags than the enemy team. Takes priority to PointLost and CapturingPoint.        |
 | TiedControlBank       | Plays when the player's team has the same amount of flags as the enemy team. Takes priority to PointLost and CapturingPoint.       |
 
+All you need to do as a voice pack creator is to put in your clips into their respective sound banks. **Do not rename any of the soundbanks or any of the Targets on the ScriptedBehaviour component.**
+
+**Note:** It is safe to leave banks blank.
+
+### Extra Settings
+
+Now what if you only want your pack to have infantry lines or just announcer lines? In the DataContainer component of your prefab, you'll find two boolean values. Setting hasInfantryLines to false will tell the main mutator to not add your pack to the list of infantry lines. Setting hasAnnouncerLines to false will do the same for the announcer clips.
+
+For debug purposes, there are also strings to set your voice pack name and its announcer pack name.
 
