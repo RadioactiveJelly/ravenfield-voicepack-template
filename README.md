@@ -63,5 +63,7 @@ For debug purposes, there are also strings to set your voice pack name and its a
 
 All done with setting up? Before you publish your mod, make sure to test it first! Select your content mod, and press Ctrl + E. This will export your mod. Now run the game with the Team Voices 3.0 mutator active and see if your lines are playing properly. All good? Now go back to Unity and go to Ravenfield Tools -> Publish To Steam Workshop and follow the instructions there.
 
+Before you make your voice pack public, be sure to have the Team Voice 3.0 mod linked as a required item.
+
 Congratulations, you've made your first voice pack!
 
