@@ -18,8 +18,9 @@ Now, open your VoicePackMutator variant. You'll notice that it has a bunch of so
 
 Let's go through the infantry lines first.
 
-| TargetName    | TargetType    | Required? |
-| ------------- |:-------------:| -----:|
-| healthBar     | Image         |  Yes  |
-| animator      | Animator      |  No   |
-| redFlash      | Image         |  No   |
+| SoundBank Name        | When Does It Play?  |
+| -------------         |:-------------:|
+| DirectionalBank       | Image         |  
+| DeathBank             | Animator      |  
+| KillBank              | Image         |  
+| FriendlyFireBank      | Image         |  
