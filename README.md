@@ -41,7 +41,7 @@ Now let's go through the announcer lines.
 | -------------         |:-------------:|
 | WinBank               | Plays when the player team wins.       |  
 | LoseBank              | Plays when the player team loses.    |  
-| PointCaptuedBank      | Plays when a point is captured by the player's team, without them being there. (when the flag icon is on the top left corner)       |  
+| PointCaptuedBank      | Plays when a point is captured by the player's team, without them being there. (when the flag icon isn't on the top left corner)       |  
 | PointLostBank         | Plays when a point is set to neutral by the enemy team without them being there.       |
 | LosingPointBank       | Unimplemented as of now.     |
 | CapturingPointBank    | Plays when the player's team neutralizes a point without them being there.        |
